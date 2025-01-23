@@ -1,5 +1,5 @@
 const { Router } = require("express")
-const { getLivros, getLivro } = require("../controladores/livro")
+const { getLivros, getLivro, postLivro } = require("../controladores/livro")
 
 const router = Router()
 
@@ -7,7 +7,7 @@ router.get('/', getLivros)
 
 router.get('/:id', getLivro)
 
-router.post('/', (req, res) => {
+router.post('/', (req, postLivro) => {
     res.send("Você fez uma requisição do tipo POST")
 })
 
