@@ -9,5 +9,5 @@ app.listen(port, () => {
     console.log(`Escutando a porta ${port}`)
 })
 
-//Para saber mais sobre o NodeJS: https://expressjs.com/pt-br/
+//Para saber mais sobre o ExpressJS: https://expressjs.com/pt-br/
 
