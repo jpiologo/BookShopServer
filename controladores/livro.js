@@ -40,5 +40,5 @@ function postLivro(req, res) {
 module.exports = {
     getLivros,
     getLivro,
-    postLivro,
+    postLivro
 }
