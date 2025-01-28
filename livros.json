@@ -1,14 +1,1 @@
-[
-    {
-        "id": "1",
-        "nome": "Twelve Years a Slave"
-    },
-    {
-        "id": "2",
-        "nome": "Duna - Part I"
-    },
-    {
-        "id": "3",
-        "nome": "Dracula"
-    }
-]
+[{"id":"1","nome":"Twelve Years a Slave"},{"id":"3","nome":"H.P Lovecraft - Genero Terror"},{"id":"4","nome":"Dracula Muito Doido"},{"id":"6","nome":"Nosferatu"}]
