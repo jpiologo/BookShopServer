@@ -12,3 +12,4 @@ app.listen(port, () => {
 
 //Para saber mais sobre o Express JS: https://expressjs.com/pt-br/
 //Para dar start no servidor: nodemon app.js
+//Para saber mais sobre códigos de respostas http: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
