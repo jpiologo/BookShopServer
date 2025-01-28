@@ -1,11 +1,9 @@
 const express = require("express")
+const app = express()
+const port = 8000
 const rotaLivro = require('./rotas/livro')
 
-const app = express()
-app.use(express.json)
-const port = 8000
-
-
+app.use(express.json())
 app.use('/livros', rotaLivro)
 
 app.listen(port, () => {
