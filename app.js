@@ -9,6 +9,7 @@ const rotaFavoritos = require('./rotas/favorito')
 app.use(express.json())
 app.use(cors({origin: "*"}))
 app.use('/livros', rotaLivro)
+app.use('/favoritos', rotaFavoritos)
 
 app.listen(port, () => {
     console.log(`Escutando a porta ${port}`)

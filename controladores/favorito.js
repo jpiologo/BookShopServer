@@ -1,4 +1,4 @@
-const { getTodosFavoritos, insereFavorito } = require("../servicos/favorito")
+const { getTodosFavoritos, insereFavorito, deletaFavoritoPorId } = require("../servicos/favorito")
 
 function getFavoritos(req, res) {
 
@@ -29,7 +29,7 @@ function deleteFavorito(req, res) {
         const id = req.params.id
 
         if (id && Number(id)) {
-            deleteFavorito(id)
+            deletaFavoritoPorId(id)
             res.send("Favorito excluído com sucesso!")
         } else {
             res.status(422)
