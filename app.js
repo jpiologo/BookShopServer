@@ -9,6 +9,7 @@ const rotaFavoritos = require('./rotas/favorito')
 app.use(express.json())
 app.use(cors({origin: "*"}))
 app.use('/livros', rotaLivro)
+app.use('/favoritos', rotaFavoritos)
 
 app.listen(port, () => {
     console.log(`Escutando a porta ${port}`)
@@ -19,6 +20,7 @@ app.listen(port, () => {
 //Para saber mais sobre códigos de respostas http: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
 
 //npm install
+//npm install -g nodemon
 //npm install express
 //npm install cors
 //nodemon app.js
