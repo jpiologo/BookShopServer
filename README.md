@@ -36,6 +36,7 @@ Este projeto implementa um servidor para gerenciar uma livraria online, fornecen
 
 2. Dependências:
 
+   ```bash
     - npm install
     - npm install -g nodemon
     - npm install express
